@@ -1,0 +1,15 @@
+[versions]
+agp = "8.3.0-alpha07"
+kotlin = "1.9.21"
+ktor = "2.2.3"
+
+[libraries]
+ktor-call-logging = { group = "io.ktor", name = "ktor-server-call-logging-jvm", version.ref = "ktor" }
+ktor-content-negotiation = { group = "io.ktor", name = "ktor-server-content-negotiation-jvm", version.ref = "ktor" }
+ktor-core-jvm = { group = "io.ktor", name = "ktor-server-core-jvm", version.ref = "ktor" }
+ktor-netty-core = { group = "io.ktor", name = "ktor-server-netty", version.ref = "ktor" }
+ktor-netty-jvm = { group = "io.ktor", name = "ktor-server-netty-jvm", version.ref = "ktor" }
+
+[plugins]
+kotlinJvm = { id = "org.jetbrains.kotlin.jvm", version.ref = "kotlin" }
+
